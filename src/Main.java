@@ -9,6 +9,7 @@ public class Main {
         List<String> listAddress=address.stream().flatMap(Collection::stream).toList();
 
         System.out.println(listAddress);
+
     }
 }
 
