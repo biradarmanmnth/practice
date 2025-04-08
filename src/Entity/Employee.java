@@ -48,9 +48,6 @@ public class Employee {
                 '}';
     }
 
-    public static class Order implements {
-
-    }
 }
 
 
