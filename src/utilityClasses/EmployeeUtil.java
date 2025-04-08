@@ -1,4 +1,4 @@
-package Employee;
+package utilityClasses;
 
 public class EmployeeUtil {
 }

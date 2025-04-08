@@ -1,69 +1,4 @@
-package Employee;
-
-import java.util.Comparator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+package Entity;
 
 
 public class Employee {
@@ -111,6 +46,10 @@ public class Employee {
         return "Employee{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    public static class Order implements {
+
     }
 }
 

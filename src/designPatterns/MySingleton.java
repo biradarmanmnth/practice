@@ -1,4 +1,4 @@
-package Employee;
+package designPatterns;
 public class MySingleton{
     public static MySingleton mySingleton=null;
     private MySingleton(){}

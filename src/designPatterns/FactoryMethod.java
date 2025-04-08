@@ -1,14 +1,14 @@
-package Employee;
+package designPatterns;
 
 public class FactoryMethod{
-public static void main(String [] args) {
-    FoodFactory pizzaFactory=new PizzaFactory();
-    pizzaFactory.createOrder();
-
-    FoodFactory burgerFactory=new BurgerFactory();
-    burgerFactory.createOrder();
-
-}
+//public static void main(String [] args) {
+//    FoodFactory pizzaFactory=new PizzaFactory();
+//    pizzaFactory.createOrder();
+//
+//    FoodFactory burgerFactory=new BurgerFactory();
+//    burgerFactory.createOrder();
+//
+//}
 }
 
 interface Food{

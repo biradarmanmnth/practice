@@ -1,12 +1,8 @@
-package Employee;
+import Entity.Student;
+
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
+
 public class PracticedPrograms {
     public static void main(String[] args) {
         String s = "java is programming language";String s1 = "java is object oriented programming language. Java is very famous because of java 8 features.";
