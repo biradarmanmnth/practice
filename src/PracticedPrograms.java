@@ -20,8 +20,8 @@ public class PracticedPrograms {
 
 
         //list of employee whoose name is gretter than 5
-        List<String> eNames= EmployeeUtil.getEmpoyeeList().stream().filter(e->e.getName().length()>=5).map(e->e.getName()).toList();
-        System.out.println(eNames);
+//        List<String> eNames= EmployeeUtil.getEmpoyeeList().stream().filter(e->e.getName().length()>=5).map(e->e.getName()).toList();
+//        System.out.println(eNames);
 
         //---------------------------------------------------------------------------------------
         //flat map example List<List<String>>
