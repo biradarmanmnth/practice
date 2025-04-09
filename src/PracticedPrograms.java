@@ -1,10 +1,15 @@
+import Entity.Product;
 import Entity.Student;
+import utilityClasses.EmployeeUtil;
+import utilityClasses.ListOfOrders;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class PracticedPrograms {
-    public static void main(String[] args) {
+    public void main1(String[] args) {
         String s = "java is programming language";String s1 = "java is object oriented programming language. Java is very famous because of java 8 features.";
         String[] as = {"ram", "ramesh", "seeta","Kapil","Ranu","madam"};String[] as1 = {"rama", "jitesh", "seema","Sunil","sima","Ranu","parmeshwar"};
         int[] arr={100,2,3,4,4,5,8}, arr1={20,6,8,9,11};List<Integer> numList=Arrays.asList(5,8,9,3,6,8,5,7,43,67,6,5,44,4,4,4);
@@ -13,6 +18,17 @@ public class PracticedPrograms {
                                             new Student(43.3,"ranu"),
                                             new Student(92.0,"Ravi"));
 
+
+        //list of employee whoose name is gretter than 5
+        List<String> eNames= EmployeeUtil.getEmpoyeeList().stream().filter(e->e.getName().length()>=5).map(e->e.getName()).toList();
+        System.out.println(eNames);
+
+        //---------------------------------------------------------------------------------------
+        //flat map example List<List<String>>
+//        List<List<Product>> listOrders= ListOfOrders.getListOfOrders();
+//        List<Product> listOfProducts=listOrders.stream().flatMap(List::stream).sorted(Comparator.comparing(Product::getPrice)).collect(Collectors.toList());
+//        System.out.println(listOfProducts);
+        //---------------------------------------------------------------------------------------
         // 1.Find the sum of all elements of List.
  //        int sum=numList.stream().mapToInt(Integer::intValue).sum();
 //        System.out.println(sum);
